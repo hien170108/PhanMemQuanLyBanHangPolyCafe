@@ -1,85 +1,85 @@
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\ActivityLogDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\BillDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\BillDetailDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\CardDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\CategoryDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\ChatMessageDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\CrudDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\DrinkDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\ActivityLogDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\BillDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\BillDetailDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\CardDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\CategoryDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\ChatMessageDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\DrinkDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\RevenueDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\impl\UserDAOImpl.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\QueryDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\RevenueDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\dao\UserDAO.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\ActivityLog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\Bill.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\BillDetail.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\Card.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\Category.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\ChatMessage.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\Drink.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\Revenue.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\entity\User.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\ActivityHistoryJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\BillController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\BillJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\ChangePasswordController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\ChangePasswordJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\ChatWindowJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\component\DrinkJPanel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\component\FileJPanel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\component\ImageJPanel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\component\RadioJPanel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\component\SliderJPanel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\component\TimeFilterJPanel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\controller\AuthController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\controller\ChatController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\DrinkController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\DrinkJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\ForgotPasswordController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\ForgotPasswordJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\HistoryController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\HistoryJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\LoginController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\LoginJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\BillController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\BillManagerJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\CardController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\CardManagerJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\CategoryController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\CategoryManagerJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\CrudController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\DrinkController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\DrinkManagerJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\RevenueController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\RevenueManagerJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\UserController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\manager\UserManagerJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\PolyCafeController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\PolyCafeJFrame.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\SalesController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\SalesJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\UserJPanel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\WelcomeController.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\ui\WelcomeJDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\TimeRange.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XActivity.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XAuth.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XDate.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XDialog.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XEmail.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XExcel.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XIcon.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XJdbc.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XQuery.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XStatistics.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XStr.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XUI.java
-C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMau_NgoQuangHien_TH06730 - Copy\src\main\java\poly\cafe\util\XValidation.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\ActivityLogDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\BillDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\BillDetailDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\CardDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\CategoryDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\ChatMessageDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\CrudDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\DrinkDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\ActivityLogDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\BillDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\BillDetailDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\CardDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\CategoryDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\ChatMessageDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\DrinkDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\RevenueDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\impl\UserDAOImpl.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\QueryDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\RevenueDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\dao\UserDAO.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\ActivityLog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\Bill.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\BillDetail.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\Card.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\Category.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\ChatMessage.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\Drink.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\Revenue.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\entity\User.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\ActivityHistoryJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\BillController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\BillJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\ChangePasswordController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\ChangePasswordJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\ChatWindowJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\component\DrinkJPanel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\component\FileJPanel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\component\ImageJPanel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\component\RadioJPanel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\component\SliderJPanel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\component\TimeFilterJPanel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\controller\AuthController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\controller\ChatController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\DrinkController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\DrinkJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\ForgotPasswordController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\ForgotPasswordJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\HistoryController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\HistoryJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\LoginController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\LoginJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\BillController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\BillManagerJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\CardController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\CardManagerJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\CategoryController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\CategoryManagerJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\CrudController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\DrinkController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\DrinkManagerJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\RevenueController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\RevenueManagerJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\UserController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\manager\UserManagerJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\PolyCafeController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\PolyCafeJFrame.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\SalesController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\SalesJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\UserJPanel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\WelcomeController.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\ui\WelcomeJDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\TimeRange.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XActivity.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XAuth.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XDate.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XDialog.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XEmail.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XExcel.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XIcon.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XJdbc.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XQuery.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XStatistics.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XStr.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XUI.java
+C:\Users\hngo2\Desktop\HocTap\Summer 2025\Block 1\SOF204_DuAnMau\DuAnMauPolyCafe_NgoQuangHien_TH06730\src\main\java\poly\cafe\util\XValidation.java
