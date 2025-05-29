@@ -324,6 +324,7 @@ public class LoginJDialog extends javax.swing.JDialog implements LoginController
             
             XActivity.logLogin(user);
             XDialog.info("Đăng nhập thành công!");
+            XAuth.user = user;
             this.dispose();
             
             // Open main window

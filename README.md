@@ -23,7 +23,7 @@ Một phần mềm quản lý bán hàng quán cafe, thiết kế tối giản, 
 
 1. Clone repository về máy:
    ```powershell
-   git clone <link-repo>
+   git clone https://github.com/hien170108/PhanMemQuanLyBanHangPolyCafe.git
    ```
 2. Cài đặt các phụ thuộc:
    ```powershell
