@@ -1,6 +1,6 @@
 # PolyCafe ☕
 
-![PolyCafe Poster](/photos/poster.png)
+![PolyCafe Poster](/photos/poster%20readme.png)
 
 ---
 
