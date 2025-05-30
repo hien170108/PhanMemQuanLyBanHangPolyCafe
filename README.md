@@ -31,6 +31,6 @@ Thông tin thêm về phần mềm có thể xem tại [Wiki](../../wiki)
 | 3   | TH04863 | Hoàng Thiên Bảo        |
 | 4   | TH06564 | Nguyễn Đăng Tuấn Anh   |
 | 5   | TH06168 | Trần Tuấn Hiệp         |
-| 6   | TH00000 | Tô Đức Anh             |
+| 6   | TH05982 | Tô Đức Anh             |
 
 - Đóng góp, báo lỗi hoặc đề xuất tính năng mới, vui lòng tạo issue trên GitHub.
