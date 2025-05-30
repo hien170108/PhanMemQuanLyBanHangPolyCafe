@@ -13,6 +13,10 @@ Một phần mềm quản lý bán hàng quán cafe, thiết kế tối giản, 
 
 Đây cũng là điểm khởi đầu để bạn phát triển thêm các tính năng hoặc giao diện cho phần mềm quản lý quán cafe của riêng mình.
 
+---
+
+## Thông tin về phần mềm
+
 Thông tin thêm về phần mềm có thể xem tại [Wiki](../../wiki)
 
 ---
