@@ -25,11 +25,6 @@ import java.util.List;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartPanel;
-import org.jfree.chart.JFreeChart;
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.data.category.DefaultCategoryDataset;
 import poly.cafe.dao.BillDAO;
 import poly.cafe.dao.CategoryDAO;
 import poly.cafe.dao.DrinkDAO;
@@ -56,6 +51,11 @@ import java.awt.Dimension;
 import poly.cafe.dao.BillDetailDAO;
 import poly.cafe.dao.impl.BillDetailDAOImpl;
 import poly.cafe.entity.BillDetail;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.awt.BasicStroke;
+import org.jfree.chart.renderer.category.LineAndShapeRenderer;
+import javax.swing.BorderFactory;
 
 /**
  *
@@ -121,7 +121,6 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Poly Cafe");
         setBackground(new java.awt.Color(255, 51, 51));
-        setPreferredSize(new java.awt.Dimension(1026, 698));
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosed(java.awt.event.WindowEvent evt) {
                 formWindowClosed(evt);
@@ -361,14 +360,13 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(7, 7, 7)
+                .addGap(10, 10, 10)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnToggleTheme, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblFullname, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(btnChat)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -376,19 +374,17 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnChangePassword)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnSales, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnSales, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(4, 4, 4)
                                 .addComponent(btnHistory)
-                                .addGap(10, 10, 10)
+                                .addGap(18, 18, 18)
                                 .addComponent(btnLogout)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnExit))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(32, 32, 32)
-                                .addComponent(lblPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(lblPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(pnlManager, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 6, Short.MAX_VALUE))
                     .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -399,7 +395,7 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
             pnlLeftCenterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlLeftCenterLayout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1026, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 205, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         pnlLeftCenterLayout.setVerticalGroup(
             pnlLeftCenterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -419,6 +415,41 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
         // TODO add your handling code here:
         this.exit();
     }//GEN-LAST:event_formWindowClosed
+
+    private void btnToggleThemeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnToggleThemeActionPerformed
+        // TODO add your handling code here:
+        XUI.toggleTheme(this);
+        updateThemeButtonText();
+        // Update panel colors after theme change
+        XUI.setPanelPadding(pnlLeft, 0, 0, 0, 0);
+        XUI.setPanelPadding(pnlLeftCenter, 0, 0, 0, 0);
+        XUI.setPanelPadding(jPanel1, 0, 0, 0, 0);
+        XUI.setPanelPadding(pnlManager, 0, 0, 0, 0);
+        SwingUtilities.updateComponentTreeUI(this);
+    }//GEN-LAST:event_btnToggleThemeActionPerformed
+
+    private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
+        // TODO add your handling code here:
+        this.exit();
+    }//GEN-LAST:event_btnExitActionPerformed
+
+    private void btnActivityHistoryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActivityHistoryActionPerformed
+        // TODO add your handling code here:
+        this.showActivityHistoryJDialog(new javax.swing.JDialog(this, true));
+    }//GEN-LAST:event_btnActivityHistoryActionPerformed
+
+    private void btnChatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnChatActionPerformed
+        // TODO add your handling code here:
+        ChatWindowJDialog chatDialog = new ChatWindowJDialog(this, false, currentUser);
+        chatDialog.setVisible(true);
+    }//GEN-LAST:event_btnChatActionPerformed
+
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        // TODO add your handling code here:
+        int width = jLabel1.getWidth();
+        int height = jLabel1.getHeight();
+        System.out.println("Width: " + width + "px, Height: " + height + "px");
+    }//GEN-LAST:event_jLabel1MouseClicked
 
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
         // TODO add your handling code here:
@@ -474,41 +505,6 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
         // TODO add your handling code here:
         this.showHistoryJDialog(this);
     }//GEN-LAST:event_btnHistoryActionPerformed
-
-    private void btnChatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnChatActionPerformed
-        // TODO add your handling code here:
-        ChatWindowJDialog chatDialog = new ChatWindowJDialog(this, false, currentUser);
-        chatDialog.setVisible(true);
-    }//GEN-LAST:event_btnChatActionPerformed
-
-    private void btnActivityHistoryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActivityHistoryActionPerformed
-        // TODO add your handling code here:
-        this.showActivityHistoryJDialog(new javax.swing.JDialog(this, true));
-    }//GEN-LAST:event_btnActivityHistoryActionPerformed
-
-    private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
-        // TODO add your handling code here:
-        this.exit();
-    }//GEN-LAST:event_btnExitActionPerformed
-
-    private void btnToggleThemeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnToggleThemeActionPerformed
-        // TODO add your handling code here:
-        XUI.toggleTheme(this);
-        updateThemeButtonText();
-        // Update panel colors after theme change
-        XUI.setPanelPadding(pnlLeft, 0, 0, 0, 0);
-        XUI.setPanelPadding(pnlLeftCenter, 0, 0, 0, 0);
-        XUI.setPanelPadding(jPanel1, 0, 0, 0, 0);
-        XUI.setPanelPadding(pnlManager, 0, 0, 0, 0);
-        SwingUtilities.updateComponentTreeUI(this);
-    }//GEN-LAST:event_btnToggleThemeActionPerformed
-
-    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
-        // TODO add your handling code here:
-        int width = jLabel1.getWidth();
-        int height = jLabel1.getHeight();
-        System.out.println("Width: " + width + "px, Height: " + height + "px");
-    }//GEN-LAST:event_jLabel1MouseClicked
 
     /**
      * @param args the command line arguments
@@ -617,9 +613,6 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
         
         // Set hand cursor for all buttons
         XUI.setHandCursor(this);
-
-        // Create and display revenue chart
-        createRevenueChart();
     }
 
     private void updateThemeButtonText() {
@@ -631,78 +624,4 @@ public final class PolyCafeJFrame extends javax.swing.JFrame implements PolyCafe
             btnToggleTheme.setIcon(new javax.swing.ImageIcon(getClass().getResource("/poly/cafe/icons/menu/sun.png")));
         }
     }
-
-    private void createRevenueChart() {
-        // Create dataset
-        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-        
-        // Get revenue data from database
-        BillDAO billDAO = new BillDAOImpl();
-        BillDetailDAO detailDAO = new BillDetailDAOImpl();
-        List<Bill> bills = billDAO.findAll();
-        
-        // Group bills by date and calculate total revenue
-        Map<String, Double> dailyRevenue = new HashMap<>();
-        for (Bill bill : bills) {
-            if (bill.getStatus() == Bill.Status.Completed.ordinal()) { // Only count completed bills
-                String date = new SimpleDateFormat("dd/MM/yyyy").format(bill.getCheckin());
-                List<BillDetail> details = detailDAO.findByBillId(bill.getId());
-                double total = details.stream()
-                    .mapToDouble(detail -> detail.getQuantity() * detail.getUnitPrice() * (1 - detail.getDiscount()))
-                    .sum();
-                dailyRevenue.put(date, dailyRevenue.getOrDefault(date, 0.0) + total);
-            }
-        }
-        
-        // Add data to dataset
-        for (Map.Entry<String, Double> entry : dailyRevenue.entrySet()) {
-            dataset.addValue(entry.getValue(), "Doanh thu", entry.getKey());
-        }
-        
-        // Create chart
-        JFreeChart chart = ChartFactory.createLineChart(
-            "Biểu đồ doanh thu theo ngày",  // Chart title
-            "Ngày",                        // X-axis label
-            "Doanh thu (VNĐ)",             // Y-axis label
-            dataset,                       // Dataset
-            PlotOrientation.VERTICAL,      // Plot orientation
-            true,                          // Show legend
-            true,                          // Show tooltips
-            false                          // Show URLs
-        );
-        
-        // Customize chart appearance
-        chart.setBackgroundPaint(jPanel1.getBackground());
-        chart.getTitle().setPaint(jLabel2.getForeground());
-        chart.getLegend().setBackgroundPaint(jPanel1.getBackground());
-        chart.getLegend().setItemPaint(jLabel2.getForeground());
-        
-        // Create chart panel
-        ChartPanel chartPanel = new ChartPanel(chart);
-        chartPanel.setPreferredSize(new Dimension(800, 400));
-        chartPanel.setBackground(jPanel1.getBackground());
-        
-        // Add chart panel to the frame
-        jPanel1.add(chartPanel);
-        jPanel1.revalidate();
-        jPanel1.repaint();
-    }
-
-//    private void openChatWindow() {
-//        if (currentUser == null) {
-//            XDialog.alert("Vui lòng đăng nhập để sử dụng tính năng chat!");
-//            return;
-//        }
-//        ChatWindowJDialog chatWindow = new ChatWindowJDialog(this, false, currentUser);
-//        chatWindow.setVisible(true);
-//    }
-//
-//    private void openActivityHistory() {
-//        if (currentUser == null) {
-//            XDialog.alert("Vui lòng đăng nhập để xem lịch sử hoạt động!");
-//            return;
-//        }
-//        ActivityHistoryJDialog historyDialog = new ActivityHistoryJDialog(this, false, currentUser);
-//        historyDialog.setVisible(true);
-//    }
 }

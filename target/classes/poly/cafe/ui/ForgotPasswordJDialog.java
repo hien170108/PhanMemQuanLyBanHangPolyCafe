@@ -60,7 +60,7 @@ public class ForgotPasswordJDialog extends JDialog implements AuthController {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
         setTitle("Quên mật khẩu");
-        setSize(276, 400);
+        setSize(276, 600);
         setLocationRelativeTo(null);
         setResizable(false);
 
