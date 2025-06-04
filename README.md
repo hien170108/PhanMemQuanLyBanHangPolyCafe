@@ -1,4 +1,4 @@
-# PolyCafe ☕
+<h1 style="text-align: center;">PolyCafe ☕</h1>
 
 ![PolyCafe Poster](/photos/poster%20readme.png)
 
